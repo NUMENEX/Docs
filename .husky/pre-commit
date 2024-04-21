@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+
+# Check prettier formatting
+npm rum check-format ||
+(
+  echo 'Failed prettier formatting.';
+  false;
+)
+
+#Pass
+echo 'Pass precommit test';

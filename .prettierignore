@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+
+build/
+
+# plasmo - https://www.plasmo.com
+.plasmo/
+
+# husky
+.husky/_/
+
+tsconfig.json
+
